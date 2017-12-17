@@ -23,7 +23,7 @@ sass:
 # Site Data
 url:  "https://oneSaber.github.io/PaperStation" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/PaperStation" # the subpath of your site, e.g. /blog
-title: Simple Texture
+title: PaperStation
 description: "A simple person blog."
 keywords: 'student,ACGN,blog'
 author:
@@ -35,8 +35,8 @@ author:
     - name: github
       url: https://github.com/oneSaber
 home:
-  section1: <h1>Simple Texutre</h1>
-  section2: <h2>A gem-based responsive simple texture styled Jekyll theme</h2>
+  section1: <h1>PaperStation</h1>
+  section2: <h2>A rookie student's Blog about commic and learn</h2>
   section3: <div class="social-links"><a class="ico-github btn" href="https://github.com/yizeng/jekyll-theme-simple-texture" title="View on GitHub"></a></div>
 blog:
   cc_license: http://creativecommons.org/licenses/by-sa/4.0/ # A link to CC License of your choice.
