@@ -1,7 +1,7 @@
 # Site Settings
 encoding: UTF-8
 exclude: ["*.gem", "*.gemspec", "Gemfile", "Gemfile.lock", "node_modules", "Rakefile", "starter-kit", "vendor"]
-lang: en # Language code as defined in _data/i18n.yml. en, en-gb, en-us, zh, zh-cn, zh-tw etc.
+lang: [en,zh-cn] # Language code as defined in _data/i18n.yml. en, en-gb, en-us, zh, zh-cn, zh-tw etc.
 permalink: /blog/:year/:month/:day/:title/
 
 whitelist: [jekyll-feed, jekyll-redirect-from, jekyll-seo-tag, jekyll-sitemap]
@@ -21,31 +21,19 @@ sass:
   style: compressed
 
 # Site Data
-url: # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: # the subpath of your site, e.g. /blog
+url:  "https://oneSaber.github.io/PaperStation" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/PaperStation" # the subpath of your site, e.g. /blog
 title: Simple Texture
-description: "A gem-based responsive simple texture styled Jekyll theme."
-keywords: 'jekyll,theme,gem-based,blog'
+description: "A simple person blog."
+keywords: 'student,ACGN,blog'
 author:
   name:
   job_title:
   location:
   email:
-  social_links:
-    - name: facebook
-      url:
+  social_links:  
     - name: github
-      url: https://github.com/yizeng/jekyll-theme-simple-texture
-    - name: instagram
-      url:
-    - name: linkedin
-      url:
-    - name: stackoverflow
-      url:
-    - name: twitter
-      url: 
-    - name: vk
-      url:
+      url: https://github.com/oneSaber
 home:
   section1: <h1>Simple Texutre</h1>
   section2: <h2>A gem-based responsive simple texture styled Jekyll theme</h2>
@@ -56,8 +44,8 @@ blog:
   footer_content: A gem-based responsive simple texture styled <a href="http://jekyllrb.com/">Jekyll</a> theme.
 
 disqus:
-  shortname: # e.g. yizeng
-  public_key: # e.g. ULZ0b9TFefCUJHKQd4JCKv2v3u27YoG7YG8zXPewkWrT333Z0Se9YnxLzoV6VM8W
+  shortname: PaperStation # e.g. yizeng
+  public_key: Lakers # e.g. ULZ0b9TFefCUJHKQd4JCKv2v3u27YoG7YG8zXPewkWrT333Z0Se9YnxLzoV6VM8W
 google_analytics: # e.g. 'UA-42456515-5'
 addthis_public_id: # AddThis sharing plugin. See http://www.addthis.com/. E.g. ra-53329e27694534j5 
 
